@@ -1,4 +1,4 @@
-# Brokered-Multi-Expert-Reflection
+# Enhancing LLM Reasoning Capabilities Through Brokered Multi-Expert Reflection
 This repo holds the code and log files for Enhancing LLM Reasoning Capabilities Through Brokered Multi-Expert Reflection by Tejasvee Sheokand, Garveet Jain, Arshdeep Bahga, Vijay K. Madisetti.
 
 ## Abstract
@@ -9,4 +9,7 @@ medical reasoning, to deliver feedback on the base model’s reasoning paths. Th
 The experiments conducted across diverse datasets, including HotPotQA, SimpleQA, and PubmedQA, underscore the proposed architecture’s efficacy in augmenting success signals, Rouge-L scores (indicative
 of quality and precision), and CTRLEval Consistency Scores (indicative of coherence and consistency). The architecture effectively addresses the issues of hallucinations and inconsistencies that frequently occur in
 multi-step reasoning. Importantly, the approach exhibits considerable potential in tackling domain-specific tasks, underscoring the importance of achieving correct and reliable conclusions.
+
+![Architecture Diagram](./figures/Fig1.png)
+![Example Diagram](./figures/Fig2.png)
 
