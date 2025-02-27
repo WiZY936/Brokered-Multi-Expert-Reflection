@@ -13,3 +13,19 @@ multi-step reasoning. Importantly, the approach exhibits considerable potential 
 ![Architecture Diagram](./figures/Fig1.png)
 ![Example Diagram](./figures/Fig2.png)
 
+## To Run
+1. Install the module dependencies into your environment
+```bash
+pip install -r requirements.txt
+```
+2. Set environment variables to your API keys:
+
+```bash
+export OPENAI_API_KEY=<your key>
+export ANTHROPIC_API_KEY=<your key>
+export MISTRAL_API_KEY=<your key>
+```
+3. We have provided a set of notebooks to easily run, explore, and interact with the results of the reasoning experiments.
+
+#### Note
+Due to the significant API charges, it may not be feasible for individual developers to rerun all the results. All runs from the paper, along with additional runs, are logged in `./logs`.
