@@ -1,0 +1,21 @@
+gym==0.26.2
+joblib==1.2.0
+langchain==0.2.15
+numpy==1.24.1
+openai==0.27.4
+python-dotenv==1.0.0
+tenacity==8.2.2
+tiktoken==0.4.0
+transformers==4.36.2
+pandas==1.5.3
+scikit-learn
+wikipedia
+langchain-community==0.2.13
+langchain-mistralai== 0.1.12
+langchain-anthropic== 0.1.23
+accelerate
+bitsandbytes
+ipykernel
+rouge-score
+sentencepiece
+protobuf
