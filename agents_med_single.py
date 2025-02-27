@@ -43,17 +43,10 @@ class CoTAgent:
                     reflect_prompt: PromptTemplate = cot_reflect_prompt,
                     cot_examples: str = COT,
                     reflect_examples: str = COT_REFLECT,
-                    # self_reflect_llm: list = [
-                    #                     AnyLlamaAILLM(
-                    #                         temperature=0.0,
-                    #                         model_name="medalpaca/medalpaca-7b"),
-                    #                     AnyLlamaAILLM(
-                    #                         temperature=0.0,
-                    #                         model_name="OptimalScale/robin-7b-v2-delta")
 
                     self_reflect_llm: AnyLlamaAILLM = AnyLlamaAILLM(
                                             temperature=0.0,
-                                            model_name="medalpaca/medalpaca-7b"),                                   # <--- Change LLM here 
+                                            model_name="medalpaca/medalpaca-7b"),                                   # <--- Change LLM here ("OptimalScale/robin-7b-v2-delta")
                                             
                     action_llm: AnyOpenAILLM = AnyOpenAILLM(
                                             temperature=0,
