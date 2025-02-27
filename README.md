@@ -22,7 +22,11 @@ pip install -r requirements.txt
 
 ```bash
 export OPENAI_API_KEY=<your key>
+```
+```bash
 export ANTHROPIC_API_KEY=<your key>
+```
+```bash
 export MISTRAL_API_KEY=<your key>
 ```
 3. We have provided a set of notebooks to easily run, explore, and interact with the results of the reasoning experiments.
